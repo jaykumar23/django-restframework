@@ -1,0 +1,5 @@
+json.dumps(data) -> py to json
+json.loads(data) -> to parse json string -- js to py
+serializers -> convert complex data(querysets) to py data so easy to convert py to js + also deserialize
+
+Flow : complex data --(serialization)--> python data  --(render json)--> json
